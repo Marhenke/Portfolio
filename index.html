@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marlene Henke</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -15,7 +16,7 @@
         <div class="container">
             <div class="row justify-content-between pt-3 pb-5 text-center">
                 <h5 class="col-1">&</li>
-                <h5 class="col-2">Marlene Henke</li>
+                    <h5 class="col-2">Marlene Henke</li>
             </div>
         </div>
         <div class="row align-items-center title mt-5 pt-5">
@@ -27,13 +28,13 @@
 
     </div>
     <div class="about-me">
-        <h2 class="col-lg-3 text-center">About Me:</h2>
+        <h2 class="col-lg-3 col-10 text-center">About Me:</h2>
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-3 aboutme-img ">
+                <div class="col-lg-3 col-10 aboutme-img ">
                     <img class="img-fluid" src="Images/AboutMe.heic" alt="">
                 </div>
-                <div class="col-lg-6 aboutme-txt">
+                <div class="col-lg-6 col-10 aboutme-txt">
                     <p>My name is Marlene Henke and I’m a designer and developer based in Buenos Aires, Argentina.</p>
 
                     <p>I received my bachelors degree in 2022 from the Universidad Torcuato DiTella, where I studied
@@ -48,14 +49,25 @@
         </div>
     </div>
     <div class="projects">
-        <h2 class="col-lg-2 text-center">Projects</h2>
+        <h2 class="col-lg-2 col-10 text-center">Projects</h2>
         <h4 class="">FullStack Applications</h4>
         <div class="container">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-lg-4 col-10">
-                    <a href="https://marlene-henke-fullstackbadbank.onrender.com/#/">
-                    <img class="img-fluid" src="Images/MBank.png" alt=""></a>
-                </div>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marlene-henke-fullstackbadbank.onrender.com/#/">
+                                <img class="img-fluid" src="Images/MBank.png" alt=""></a>
+                        </div>
+                        <a href="https://marlene-henke-fullstackbadbank.onrender.com/#/">
+                            <div class="content">
+                                <h3>MBank Application</h3>
+                                <p>A full stack application that allows users to create an account, deposit money,
+                                    withdraw money, transfer money and check their account balance.</p>
+                                <p>#React #NodeJS #Express #MongoDB</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,12 +75,34 @@
         <div class="container">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://calculatormarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
-                    <img class="img-fluid" src="Images/calculator.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://calculatormarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
+                                <img class="img-fluid" src="Images/calculator.png" alt=""></a>
+                        </div>
+                        <a href="https://calculatormarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
+                            <div class="content">
+                                <h3>Calculator App</h3>
+                                <p>A simple calculator developed using React.js library.</p>
+                                <p>#React #JavaScript #CSS</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10">
-                    <a href="https://tictactoemarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
-                    <img class="img-fluid" src="Images/tictactoe.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://tictactoemarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
+                                <img class="img-fluid" src="Images/tictactoe.png" alt=""></a>
+                        </div>
+                        <a href="https://tictactoemarlenehenke.s3.sa-east-1.amazonaws.com/index.html">
+                            <div class="content">
+                                <h3>Tic Tac Toe</h3>
+                                <p>A multiplayer tic tac toe game developed using React.js</p>
+                                <p>#React #JavaScript #CSS</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,45 +110,165 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/F1-Redesign/">
-                    <img class="img-fluid" src="Images/f1.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/F1-Redesign/">
+                                <img class="img-fluid" src="Images/f1.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/F1-Redesign/">
+                            <div class="content">
+                                <h3>Formula 1 Redesign</h3>
+                                <p>A redesigned version of the official Formula 1 website usign a BentoBox design</p>
+                                <p>#HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/Netflix-clone-responsive/">
-                    <img class="img-fluid" src="Images/netflix.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Netflix-clone-responsive/">
+                                <img class="img-fluid" src="Images/netflix.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Netflix-clone-responsive/">
+                            <div class="content">
+                                <h3>Responsive Netflix Clone</h3>
+                                <p>A clone of the popular streaming service Netflix.</p>
+                                <p>#HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/Paint/">
-                    <img class="img-fluid" src="Images/paint.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Paint/">
+                                <img class="img-fluid" src="Images/paint.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Paint/">
+                            <div class="content">
+                                <h3>Paint Application</h3>
+                                <p>An application to create digital paintings using HTML Canvas</p>
+                                <p>#HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/Real-Time-Bus-Tracker-Exercise/">
-                    <img class="img-fluid" src="Images/bus.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Real-Time-Bus-Tracker-Exercise/">
+                                <img class="img-fluid" src="Images/bus.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Real-Time-Bus-Tracker-Exercise/">
+                            <div class="content">
+                                <h3>Real time Bus Application</h3>
+                                <p>An application showing the bus stops between MIT and Harvard</p>
+                                <p>#APIs #HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/Eye-Exercise/">
-                    <img class="img-fluid" src="Images/eyes.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Eye-Exercise/">
+                                <img class="img-fluid" src="Images/eyes.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Eye-Exercise/">
+                            <div class="content">
+                                <h3>Moving Eyes</h3>
+                                <p>A simple animation where two eyes follow your mouse</p>
+                                <p>#HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10">
-                    <a href="https://marhenke.github.io/PacMan-Exersice/">
-                    <img class="img-fluid" src="Images/pacman.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/PacMan-Exersice/">
+                                <img class="img-fluid" src="Images/pacman.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/PacMan-Exersice/">
+                            <div class="content">
+                                <h3>Pacman Factory</h3>
+                                <p>A Pacman Factory, created in JavaScript</p>
+                                <p>#HTML #CSS #JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
         <h4>P5J Applications</h4>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/p5j-Examples/">
-                    <img class="img-fluid" src="Images/varios.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/p5j-Examples/">
+                                <img class="img-fluid" src="Images/varios.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/p5j-Examples/">
+                            <div class="content">
+                                <h3>Random</h3>
+                                <p>Random excersices creted using P5J</p>
+                                <p>#JavaScript #P5J</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10 mb-5">
-                    <a href="https://marhenke.github.io/Rectangulos/">
-                    <img class="img-fluid" src="Images/rectangulos.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Rectangulos/">
+                                <img class="img-fluid" src="Images/rectangulos.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Rectangulos/">
+                            <div class="content">
+                                <h3>Rectangles</h3>
+                                <p>Artsy rectangle excercise made with P5J.</p>
+                                <p>#JavaScript #P5J</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-10">
-                    <a href="https://marhenke.github.io/Bojack-Space-Invaders-Final/">
-                    <img class="img-fluid" src="Images/bojack.png" alt=""></a>
+                    <div class="box">
+                        <div class="imgbox">
+                            <a href="https://marhenke.github.io/Bojack-Space-Invaders-Final/">
+                                <img class="img-fluid" src="Images/bojack.png" alt=""></a>
+                        </div>
+                        <a href="https://marhenke.github.io/Bojack-Space-Invaders-Final/">
+                            <div class="content">
+                                <h3>Bojack Invaders</h3>
+                                <p>A Bojack Horseman version of the classic arcade game Space Invaders</p>
+                                <p>#JavaScript #P5J #GameDev</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col"><p>Contact me!</p></div>
+                <div class="col-1">
+                    <a href="mailto:henkemarlenes@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                    </a>
+                </div>
+                <div class="col-1">
+                    <a href="https://github.com/Marhenke">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                      </svg>
+                    </a>
                 </div>
             </div>
         </div>
